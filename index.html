@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>The Boutique Company</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">The Boutique</div>
+        <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-img">
+        <img src="./public/contemporary-fashion.png" alt="" />
+      </div>
+      <div class="hero-content">
+        <h1>Welcome to The Boutique</h1>
+        <p>Your one-stop destination for exquisite fashion.</p>
+        <a href="#products" class="cta-button">Explore Now</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        We are dedicated to providing you with the finest clothing and
+        accessories. Our passion for fashion drives us to curate collections
+        that reflect elegance and style.
+      </p>
+    </section>
+
+    <section id="products" class="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2021/04/19/06/34/woman-6190515_1280.jpg"
+            alt="Product 1"
+          />
+          <h3>Elegant Evening Dress</h3>
+          <p>An exquisite dress for special occasions.</p>
+          <span class="price">$149.99</span>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/10/06/14/47/leather-craft-3727992_1280.jpg"
+            alt="Product 2"
+          />
+          <h3>Classic Leather Bag</h3>
+          <p>A timeless accessory to complement any outfit.</p>
+          <span class="price">$79.99</span>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/02/20/13/42/luxury-1212022_1280.jpg"
+            alt="Product 3"
+          />
+          <h3>Chic Sunglasses</h3>
+          <p>Stay stylish while protecting your eyes.</p>
+          <span class="price">$29.99</span>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/01/04/08/35/watch-1120458_1280.jpg"
+            alt="Product 4"
+          />
+          <h3>Luxury Watch</h3>
+          <p>A statement timepiece for the modern individual.</p>
+          <span class="price">$249.99</span>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/08/14/08/15/woman-7385194_1280.jpg"
+            alt="Product 5"
+          />
+          <h3>Floral Print Blouse</h3>
+          <p>A charming blouse with a touch of nature.</p>
+          <span class="price">$59.99</span>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2021/03/17/11/06/penny-loafers-6102078_1280.jpg"
+            alt="Product 6"
+          />
+          <h3>Leather Loafers</h3>
+          <p>Comfort and style combined in these loafers.</p>
+          <span class="price">$89.99</span>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any inquiries, feel free to reach out to us.</p>
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 The Boutique. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
